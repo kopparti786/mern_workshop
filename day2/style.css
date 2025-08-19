@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(25, 223, 35);
+    background-color:aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@ body{
 }
 #divmain
 {
-    background-color: yellow;
+    background-color:bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,8 @@ body{
     height:50%;
     border : 2px solid red;
     width:50%;
-    
+    border-radius: 20px;
+    box-shadow:15px 15px 15px bisque;
 }
 
 
@@ -31,10 +32,24 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:yellow;
     margin:5px;
-    gap:50px;
+    gap:40px;
     width:auto;
     height: auto;
     
+}
+#b1{
+    background-color:green;
+    border-radius: 10px;
+    height:50px;
+}
+#b2{
+    background-color: red;
+    border-radius: 10px;
+    height: 50px;
+}
+#b3{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    height:50px;
 }
