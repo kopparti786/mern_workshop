@@ -107,3 +107,21 @@ body{
     border : 2px solid red;
     
 }
+#divbox11{
+    background-color: brown;
+    display: flex;
+    height: 10%;
+    width:10%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+#divbox12{
+    background-color: powderblue;
+    display: flex;
+    height:10%;
+    width:10%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}

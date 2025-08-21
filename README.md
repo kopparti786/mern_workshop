@@ -25,3 +25,10 @@
 <button>click me to change color</button>
     const btn = document.querySelector("button")
     btn.addEventListener
+
+# **java script**
+-in html,javaScript code is inserted between <script></script>
+-exmaple
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
