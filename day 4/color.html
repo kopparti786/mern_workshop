@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<body>
+    <button id="main">click me</button>
+    <input type="color"id="mas">
+    <script>
+        const btn = document.getElementById("main");
+        const mast = document.getElementById("mas");
+        btn.addEventListener("click",() =>{
+            let r = Math.round(Math.random()*200)
+            let g = Math.round(Math.random()*200)
+            let b = Math.round(Math.random()*200)
+            console.log(r,g,b);
+            document.body.style.backgroundColor=`rgb(${r},${g},${b})`
+        })
+        mast.addEventListener('change',(a) => {
+            let colors =a.target.value;
+            console.log(colors)
+            document.body.style.backgroundColor=colors;
+        })
+        
+    </script>
+</body>
+</html>

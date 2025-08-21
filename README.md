@@ -10,4 +10,18 @@
 5) Deployment
 - devops,cloud,etc..
 6) Mainteance
+# **datatypes in js**
+1) let
+2) var
+3) const
   
+# **Event Handling**
+-<button id="button" onclick="addBackground()">click me</button>
+    funtion changebackground()
+    {
+        document.body.style.backgroundColor = rgb(0,0,0);
+    }
+# exmaple-listen and handle events
+<button>click me to change color</button>
+    const btn = document.querySelector("button")
+    btn.addEventListener
