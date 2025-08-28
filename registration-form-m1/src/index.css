@@ -1,0 +1,42 @@
+/* index.css */
+
+/* Background for the whole page */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f6d365, #fda085); /* warm gradient */
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional subtle animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* body {
+  background: linear-gradient(-45deg, #89f7fe, #66a6ff, #a1c4fd, #c2e9fb);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+} */
+
+/* Container for the form */
+.form-container {
+  background: #ffffff;             /* white card */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* soft shadow */
+  max-width: 500px;
+  width: 100%;
+}
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333333;                  /* dark text */
+  text-align: center;
+}
